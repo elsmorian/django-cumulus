@@ -25,7 +25,7 @@ CUMULUS = {
     "HEADERS": {},
     "GZIP_CONTENT_TYPES": [],
     "USE_PYRAX": True,
-    "PYRAX_IDENTITY_TYPE": None,
+    "PYRAX_IDENTITY_TYPE": 'rackspace',
 }
 
 if hasattr(settings, "CUMULUS"):
